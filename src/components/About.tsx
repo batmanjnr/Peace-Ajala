@@ -30,10 +30,10 @@ export const About: React.FC<AboutProps> = ({ darkMode }) => {
             >
               <h3 className="text-sm font-bold font-sans mb-2">Background</h3>
               <p className="text-xs sm:text-sm opacity-80 leading-relaxed font-sans font-normal mb-3">
-                Computer Science undergraduate at <strong>Ladoke Akintola University Of Technology Nigeria</strong>. Focused on full-stack web engineering and mobile app development using React, Next.js, Node.js, Express, MongoDB, and React Native.
+                Computer Science undergraduate at <strong>Ladoke Akintola University Of Technology Nigeria</strong>. Focused on full-stack web engineering, Python &amp; FastAPI backend services, and mobile app development using React, Next.js, Node.js, Express, Python, FastAPI, MongoDB, and React Native.
               </p>
               <p className="text-xs opacity-75 leading-relaxed font-sans">
-                Experience and training across INTRAVENT TECHNOLOGY, LEGIT HUB INNOVATION, and SQI College of ICT, engineering full-stack web platforms, mobile apps, and RESTful APIs.
+                Experience and training across INTRAVENT TECHNOLOGY, LEGIT HUB INNOVATION, SQI College of ICT, and backend engineering, developing full-stack web platforms, mobile apps, and scalable RESTful APIs.
               </p>
             </div>
 
@@ -42,8 +42,8 @@ export const About: React.FC<AboutProps> = ({ darkMode }) => {
               <div className={`p-3.5 rounded-xl border flex items-start gap-2.5 ${darkMode ? 'bg-neutral-950 border-neutral-800' : 'bg-neutral-50 border-neutral-200'}`}>
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
-                  <div className="font-bold text-xs mb-0.5">Full-Stack Development</div>
-                  <div className="text-[11px] opacity-70">React & Next.js frontends with Node/Express backends.</div>
+                  <div className="font-bold text-xs mb-0.5">Full-Stack & Backend</div>
+                  <div className="text-[11px] opacity-70">React & Next.js frontends with FastAPI, Python & Node backends.</div>
                 </div>
               </div>
 

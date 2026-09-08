@@ -28,3 +28,7 @@ Allow: /
 
 User-agent: Bingbot
 Allow: /
+
+# Sitemap
+Sitemap: https://batmanjnr.vercel.app/sitemap.xml
+

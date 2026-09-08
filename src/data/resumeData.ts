@@ -6,7 +6,7 @@ export const USER_PROFILE: UserProfile = {
   fullName: 'Ajala Peace Olaoluwa',
   title: 'Full-Stack & Mobile Developer',
   subtitle: 'B.Sc. Computer Science Student at Ladoke Akintola University Of Technology Nigeria',
-  bio: 'Computer Science student at Ladoke Akintola University Of Technology Nigeria & Full-Stack Developer. Skilled in React, Next.js, Node.js, Express, MongoDB, and React Native.',
+  bio: 'Computer Science student at Ladoke Akintola University Of Technology Nigeria & Full-Stack Developer. Skilled in React, Next.js, Node.js, Express, Python & FastAPI backend, MongoDB, and React Native.',
   location: 'Nigeria',
   email: 'peaceajala2006@gmail.com',
   phone: '+234 907 260 6277',
@@ -43,6 +43,18 @@ export const EXPERIENCE_LIST: ExperienceItem[] = [
     highlights: [
       'Full stack web application development.',
       'API design and database management.',
+    ],
+    category: 'Work',
+  },
+  {
+    id: 'exp-backend-dev',
+    role: 'Backend Developer',
+    organization: 'Backend Engineering',
+    period: 'September 2025 – January 2026',
+    description: 'Developed server-side architectures, RESTful APIs, and database schemas with Python and modern backend services.',
+    highlights: [
+      'Engineered scalable backend APIs and business logic.',
+      'Database integration and data pipeline management.',
     ],
     category: 'Work',
   },
@@ -88,6 +100,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       { name: 'JavaScript (ES6+)', level: 'Advanced', percentage: 92, color: 'from-black to-neutral-800' },
       { name: 'TypeScript', level: 'Intermediate', percentage: 84, color: 'from-black to-neutral-800' },
+      { name: 'Python', level: 'Intermediate', percentage: 84, color: 'from-black to-neutral-800' },
       { name: 'HTML5', level: 'Advanced', percentage: 95, color: 'from-black to-neutral-800' },
       { name: 'CSS3', level: 'Advanced', percentage: 90, color: 'from-black to-neutral-800' },
     ],
@@ -105,19 +118,21 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: 'Backend & Databases',
     skills: [
+      { name: 'FastAPI', level: 'Advanced', percentage: 90, color: 'from-black to-neutral-800' },
+      { name: 'Python Backend', level: 'Intermediate', percentage: 85, color: 'from-black to-neutral-800' },
       { name: 'Node.js', level: 'Intermediate', percentage: 85, color: 'from-black to-neutral-800' },
       { name: 'Express.js', level: 'Intermediate', percentage: 84, color: 'from-black to-neutral-800' },
       { name: 'MongoDB', level: 'Intermediate', percentage: 78, color: 'from-black to-neutral-800' },
-      { name: 'REST APIs', level: 'Advanced', percentage: 90, color: 'from-black to-neutral-800' },
+      { name: 'REST APIs', level: 'Advanced', percentage: 92, color: 'from-black to-neutral-800' },
     ],
   },
   {
     title: 'Tools & Cloud',
     skills: [
-      { name: 'Git & GitHub', level: 'Advanced', percentage: 88, color: 'from-black to-neutral-800' },
+      { name: 'Git & GitHub', level: 'Expert', percentage: 100, color: 'from-black to-neutral-800' },
+      { name: 'Vercel Deployment', level: 'Expert', percentage: 100, color: 'from-black to-neutral-800' },
       { name: 'Firebase', level: 'Intermediate', percentage: 75, color: 'from-black to-neutral-800' },
       { name: 'Expo Go', level: 'Intermediate', percentage: 80, color: 'from-black to-neutral-800' },
-      { name: 'Vercel Deployment', level: 'Advanced', percentage: 90, color: 'from-black to-neutral-800' },
       { name: 'Postman', level: 'Intermediate', percentage: 82, color: 'from-black to-neutral-800' },
     ],
   },
